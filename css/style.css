@@ -59,10 +59,6 @@ a{
     padding: 100px 0px;
     background: rgba(229, 84, 115, 0.05);
 }
-.offer-title,.offer-des{
-    text-align: center;
-    
-}
 .offer-text{
     padding: 0px 50px;
 }
@@ -70,7 +66,7 @@ a{
     font-size: 32px;
     margin-bottom: 20px;
 }
-.offer-title span{
+.offer-title span, .footer-title span{
     color: #E55473;
 }
 .offer.button{
@@ -93,11 +89,18 @@ a{
 .insta-title,
 .insta-des,
 .subs-title,
-.subs-des{
+.subs-des,
+.copyright,
+.offer-title,
+.offer-des,
+.footer-title,
+.footer-des{
     text-align: center;
 }
 .insta-title,
-.subs-title{
+.subs-title,
+.footer-title,
+.footer-des{
     margin-bottom: 24px;
 }
 .insta-des,
@@ -136,4 +139,19 @@ button.subscribe{
     margin-right: 20px;
     border-radius: 8px;
     border: 0px
+}
+/* Footer section */
+footer{
+    padding: 120px;
+    background: #111010;
+}
+.text-white{
+    color: #fff;
+}
+.footer-des{
+    padding:0 20%;
+    margin-bottom: 30px;
+}
+.copyright{
+    color:rgba(255, 255, 255, 0.4);
 }
