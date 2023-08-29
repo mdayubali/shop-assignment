@@ -28,6 +28,41 @@ a{
     padding: 20px 43px;
     border-radius: 8px;
 }
+/* Header  */
+header{
+    background-color: #111010;
+}
+
+.navigation{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand a{
+    text-transform: uppercase;
+    font-size:48px;
+    font-weight: 800;
+    color: #FFF;
+}
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-items{
+    margin-right: 25px;
+}
+.navbar-nav :last-child{
+    margin-right: 0px;
+}
+.navbar-items a{
+    padding: 10px 15px;
+    display: inline-block;
+    color:#FFF;
+    text-transform: capitalize;
+    font-size: 22px;
+}
 /* Hero section */
 .hero-area{
     display: flex;
@@ -120,8 +155,8 @@ a{
     font-size: 32px;
     margin-bottom: 20px;
 }
-.offer-title span, .footer-title span{
-    color: #E55473;
+.offer-title span, .footer-title span, .brand a span{
+    color: #E55473 !important;
 }
 
 .offer-content .sign-up{
