@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
 a{
     text-decoration: none;
@@ -36,7 +36,7 @@ a{
     font-size: 18px;
     margin: 32px 0px;
 }
-.hero-content a{
+a.button{
     background: #E55473;
     color: #FFF;
     font-size: 18px;
@@ -45,11 +45,63 @@ a{
     border-radius: 8px;
     text-decoration: none;
 }
-.hero-image{
+.hero-image,
+.offer-area{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .hero-image img{
     height: auto;
     width: 100%;
+}
+/* Offer section */
+.offer{
+    padding: 100px 0px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.offer-title,.offer-des{
+    text-align: center;
+    
+}
+.offer-text{
+    padding: 0px 50px;
+}
+.offer-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.offer-title span{
+    color: #E55473;
+}
+.offer.button{
+    display: inline-block;
+    margin: 0 auto;
+}
+.offer-content .sign-up{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.offer-img{
+    display: flex;
+    justify-content: center;
+}
+/* Instagram section */
+.instagram{
+    padding: 120px 0px;
+}
+.insta-title,.insta-des{
+    text-align: center;
+}
+.insta-title{
+    margin-bottom: 24px;
+}
+.insta-des{
+    margin-bottom: 24px;
+    padding:0 25%;
+}
+.insta-area{
+    display: flex;
+    justify-content: space-between;
 }
