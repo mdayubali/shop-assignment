@@ -20,6 +20,15 @@ a{
     max-width: 100%;
     margin: 0 auto;
 }
+.button{
+    background: #E55473;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+}
+/* Hero section */
 .hero-area{
     display: flex;
     align-items: center;
@@ -36,14 +45,7 @@ a{
     font-size: 18px;
     margin: 32px 0px;
 }
-.button{
-    background: #E55473;
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 20px 43px;
-    border-radius: 8px;
-}
+
 .hero-image,
 .offer-area{
     display: flex;
@@ -53,6 +55,58 @@ a{
 .hero-image img{
     height: auto;
     width: 100%;
+}
+
+/* Feature section */
+.feature{
+    padding: 120px 0px;
+}
+.feature-content-area{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.feature-image{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 300px 300px 0 0;
+}
+.feature-image.one{
+    background: rgba(167, 33, 98, 0.15);
+}
+.feature-image.two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature-image.three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.col-4{
+    width: 33.3%;
+}
+.feature-text{
+    display: inline-block;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Servie area */
+.service-container{
+    background: rgba(39, 39, 39, 0.05);
+}
+.service-area{
+    display: flex;
+    justify-content: center;
+    padding: 80px 120px;
+}
+.service-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.service-area .text{
+    text-align: center;
 }
 /* Offer section */
 .offer{
@@ -69,10 +123,7 @@ a{
 .offer-title span, .footer-title span{
     color: #E55473;
 }
-.offer.button{
-    display: inline-block;
-    margin: 0 auto;
-}
+
 .offer-content .sign-up{
     display: flex;
     margin-top: 20px;
@@ -86,6 +137,7 @@ a{
 .instagram{
     padding: 120px 0px;
 }
+
 .insta-title,
 .insta-des,
 .subs-title,
