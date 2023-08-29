@@ -44,9 +44,6 @@ a{
     padding: 20px 43px;
     border-radius: 8px;
 }
-a.button{
-    text-decoration: none;
-}
 .hero-image,
 .offer-area{
     display: flex;
@@ -93,23 +90,50 @@ a.button{
 .instagram{
     padding: 120px 0px;
 }
-.insta-title,.insta-des{
+.insta-title,
+.insta-des,
+.subs-title,
+.subs-des{
     text-align: center;
 }
-.insta-title{
+.insta-title,
+.subs-title{
     margin-bottom: 24px;
 }
-.insta-des{
-    margin-bottom: 24px;
+.insta-des,
+.subs-des{
+    margin-bottom: 48px;
     padding:0 25%;
 }
 .insta-area{
     display: inline-flex;
     justify-content: space-between;
     gap: 20px;
-    width: ;
 }
 .insta-area .iamge-width{
-    width:24%;
+    width: 24%;
 }
 /* subscription */
+
+.subscription{
+    padding-bottom: 120px; 
+}
+.subs-form{
+    padding: 120px 0px;
+    background: url('../images/Rectangle9.png') no-repeat center center;
+    background-size: contain;
+    border-radius: 8px;
+}
+button.subscribe{
+    border: 0px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form .form-control{
+    width: 40%;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 0px
+}
